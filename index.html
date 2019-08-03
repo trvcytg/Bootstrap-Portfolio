@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>About | Todd Tracy</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/images/favicon-16x16.png"
+    />
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css" />
     <style>
       body {
@@ -15,10 +21,15 @@
   </head>
   <body>
     <nav
-      class="navbar navbar-expand-sm navbar-light"
-      style="background-color: #16a2b8;"
+      class="navbar navbar-expand navbar-light"
+      style="background-color: #ffffff; border-bottom: 2px solid #dddddd"
     >
-      <a class="navbar-brand" href="#">Todd Tracy</a>
+      <a
+        class="navbar-brand"
+        href="#"
+        style="background-color: #4aaaa5; padding: 5px; color:#ffffff;"
+        >Todd Tracy</a
+      >
       <button
         class="navbar-toggler"
         type="button"
@@ -40,11 +51,14 @@
         </div>
       </div>
     </nav>
-    <div class="container">
-      <div class="row">
+    <div
+      class="container"
+      style="background-color: #ffffff; border:2px solid #dddddd; margin-top: 2%;"
+    >
+      <div class="row" style="border-bottom: 2px solid #dddddd">
         <div class="col-sm-4"><h1>About Me</h1></div>
       </div>
-      <div class="row">
+      <div class="row" style="margin-top: 2%;">
         <div class="col-sm-4">
           <img
             src="assets/images/me.jpg"
@@ -112,4 +126,23 @@
       </div>
     </div>
   </body>
+  <footer>
+    <style>
+      .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        padding-top: 0.5em;
+        background-color: #777777;
+        color: #ffffff;
+        border-top: 7.5px solid #4aaaa5;
+        text-align: center;
+      }
+    </style>
+
+    <div class="footer">
+      <p>Copyright ©</p>
+    </div>
+  </footer>
 </html>
